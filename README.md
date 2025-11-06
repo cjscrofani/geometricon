@@ -1,8 +1,8 @@
-# Geometricon
+# <img src="readme-icons/geometricon.svg" width="48" height="48" alt="" /> Geometricon
 
 Generate unique, symmetrical geometric icons from hash strings. Perfect for creating user avatars, visual identifiers, or decorative elements with a clean, modern aesthetic.
 
-## Features
+## <img src="readme-icons/features.svg" width="32" height="32" alt="" /> Features
 
 - Generates unique geometric icons from any hash string
 - Deterministic: same hash always produces the same icon
@@ -17,16 +17,16 @@ Generate unique, symmetrical geometric icons from hash strings. Perfect for crea
 - Pure TypeScript with no dependencies
 - Outputs clean SVG format
 
-## Visual Examples
+## <img src="readme-icons/visual-examples.svg" width="32" height="32" alt="" /> Visual Examples
 
-### Composition Modes
+### <img src="readme-icons/composition-modes.svg" width="24" height="24" alt="" /> Composition Modes
 
 | Centered | Radial | Split | Frame |
 |:--------:|:------:|:-----:|:-----:|
 | ![Centered](samples/centered.svg) | ![Radial](samples/radial.svg) | ![Split](samples/split.svg) | ![Frame](samples/frame.svg) |
 | Default layout | Circular arrangement | Left/right division | Perimeter border |
 
-### Color Schemes
+### <img src="readme-icons/color-schemes.svg" width="24" height="24" alt="" /> Color Schemes
 
 | Pastel | Vibrant | Ocean | Sunset |
 |:------:|:-------:|:-----:|:------:|
@@ -36,22 +36,22 @@ Generate unique, symmetrical geometric icons from hash strings. Perfect for crea
 |:----:|:----:|:--------:|
 | ![Warm](samples/scheme-warm.svg) | ![Cool](samples/scheme-cool.svg) | ![Gradient](samples/gradient.svg) |
 
-### Shape Types
+### <img src="readme-icons/shape-types.svg" width="24" height="24" alt="" /> Shape Types
 
 | Circle | Square | Triangle | Hexagon | Diamond |
 |:------:|:------:|:--------:|:-------:|:-------:|
 | ![Circle](samples/shape-circle.svg) | ![Square](samples/shape-square.svg) | ![Triangle](samples/shape-triangle.svg) | ![Hexagon](samples/shape-hexagon.svg) | ![Diamond](samples/shape-diamond.svg) |
 
-## Installation
+## <img src="readme-icons/installation.svg" width="32" height="32" alt="" /> Installation
 
 ```bash
 npm install
 npm run build
 ```
 
-## Usage
+## <img src="readme-icons/usage.svg" width="32" height="32" alt="" /> Usage
 
-### CLI Usage
+### <img src="readme-icons/cli-usage.svg" width="24" height="24" alt="" /> CLI Usage
 
 ```bash
 # Basic usage - generates 7 symmetrical shapes with centered composition
@@ -91,9 +91,9 @@ geometricon abc123 --composition radial --color-scheme vibrant --shape-count 5 -
 
 Run `geometricon --help` for full documentation.
 
-### Node.js API
+### <img src="readme-icons/nodejs-api.svg" width="24" height="24" alt="" /> Node.js API
 
-#### Basic Usage
+#### <img src="readme-icons/basic-usage.svg" width="20" height="20" alt="" /> Basic Usage
 
 ```javascript
 const { generateIcon } = require('./dist/index');
@@ -108,7 +108,7 @@ const svg = generateIcon(hash);
 console.log(svg); // SVG string output
 ```
 
-#### With Options
+#### <img src="readme-icons/with-options.svg" width="20" height="20" alt="" /> With Options
 
 ```javascript
 // Fixed number of shapes
@@ -157,7 +157,7 @@ const svg = generateIcon(hash, {
 });
 ```
 
-### Generate Icon Data Without Rendering
+### <img src="readme-icons/generate-icon-data.svg" width="24" height="24" alt="" /> Generate Icon Data Without Rendering
 
 ```javascript
 const { generateIconData } = require('./dist/index');
@@ -167,9 +167,9 @@ const iconData = generateIconData(hash, { size: 200 });
 // You can use this data to render in other formats
 ```
 
-## Examples
+## <img src="readme-icons/examples.svg" width="32" height="32" alt="" /> Examples
 
-### Node.js Example
+### <img src="readme-icons/nodejs-example.svg" width="24" height="24" alt="" /> Node.js Example
 
 ```javascript
 const { generateIcon } = require('./dist/index');
@@ -189,7 +189,7 @@ const icon = generateIcon(hash, {
 fs.writeFileSync('avatar.svg', icon);
 ```
 
-### Web Usage
+### <img src="readme-icons/web-usage.svg" width="24" height="24" alt="" /> Web Usage
 
 ```html
 <!DOCTYPE html>
@@ -214,7 +214,7 @@ fs.writeFileSync('avatar.svg', icon);
 </html>
 ```
 
-## How It Works
+## <img src="readme-icons/how-it-works.svg" width="32" height="32" alt="" /> How It Works
 
 1. Takes any hash string (MD5, SHA256, or any hex string)
 2. Uses portions of the hash to deterministically generate:
@@ -231,9 +231,9 @@ fs.writeFileSync('avatar.svg', icon);
    - All shapes constrained within SVG bounds with 5% padding
 4. Renders everything as clean SVG with transparent background
 
-## API Reference
+## <img src="readme-icons/api-reference.svg" width="32" height="32" alt="" /> API Reference
 
-### `generateIcon(hash: string, options?: IconOptions): string`
+### <img src="readme-icons/generate-icon-func.svg" width="24" height="24" alt="" /> `generateIcon(hash: string, options?: IconOptions): string`
 
 Generates an SVG icon from a hash string.
 
@@ -283,7 +283,7 @@ When multiple color options are specified, they are applied in this priority ord
 - `ocean` - Blues and teals
 - `sunset` - Warm to cool gradient colors
 
-### `generateIconData(hash: string, options?: IconOptions): IconData`
+### <img src="readme-icons/generate-icon-data-func.svg" width="24" height="24" alt="" /> `generateIconData(hash: string, options?: IconOptions): IconData`
 
 Generates the icon data structure without rendering to SVG.
 
@@ -292,11 +292,11 @@ Generates the icon data structure without rendering to SVG.
 - `shapes` (Shape[]): Array of shape objects
 - `size` (number): Icon size
 
-## Composition Modes
+## <img src="readme-icons/composition-modes-detail.svg" width="32" height="32" alt="" /> Composition Modes
 
 The library includes 5 composition strategies for professional, visually harmonious icons:
 
-### Available Compositions:
+### <img src="readme-icons/available-compositions.svg" width="24" height="24" alt="" /> Available Compositions:
 
 - **centered** (default): One large central shape with others arranged in a circle around it
   - Creates a clear focal point
@@ -322,14 +322,14 @@ The library includes 5 composition strategies for professional, visually harmoni
   - No structured layout
   - Not recommended for professional use
 
-### Default Behavior:
+### <img src="readme-icons/default-behavior.svg" width="24" height="24" alt="" /> Default Behavior:
 - **Shape count**: 7 shapes for rich geometric patterns
 - **Composition**: `centered` for professional appearance
 - **Shapes**: All geometric types (circle, square, triangle, hexagon, diamond)
 - **Rotations**: Clean 90° increments (0°, 90°, 180°, 270°)
 - **Result**: Clean, symmetrical icons suitable for websites!
 
-## Shape Types
+## <img src="readme-icons/shape-types-detail.svg" width="32" height="32" alt="" /> Shape Types
 
 The generator creates geometric shapes with perfect symmetry:
 

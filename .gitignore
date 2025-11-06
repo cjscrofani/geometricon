@@ -8,6 +8,7 @@ dist/
 demo/
 *.svg
 !samples/*.svg
+!readme-icons/*.svg
 *.html
 
 # Logs

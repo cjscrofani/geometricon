@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(12, 4.800000000000001) rotate(180)">
+    <polygon points="0,-3 3,3 -3,3" fill="hsl(112, 40%, 75%)" opacity="0.75" />
+  </g>
+  <g transform="translate(12, 12) rotate(180)">
+    <polygon points="0,-3 3,0 0,3 -3,0" fill="hsl(276, 64%, 71%)" opacity="0.826078431372549" />
+  </g>
+  <g transform="translate(12, 19.200000000000003) rotate(180)">
+    <polygon points="0,-3 3,3 -3,3" fill="hsl(7, 58%, 79%)" opacity="0.8056862745098039" />
+  </g>
+</svg>
