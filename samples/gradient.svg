@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gradient-0" x1="8.066471602728797%" y1="22.768048249248647%" x2="91.9335283972712%" y2="77.23195175075135%">
+      <stop offset="0%" stop-color="#E1F5C4" />
+      <stop offset="100%" stop-color="#355C7D" />
+    </linearGradient>
+    <linearGradient id="gradient-1" x1="65.45084971874738%" y1="97.55282581475768%" x2="34.54915028125262%" y2="2.447174185242325%">
+      <stop offset="0%" stop-color="#FF6B9D" />
+      <stop offset="100%" stop-color="#C06C84" />
+    </linearGradient>
+    <linearGradient id="gradient-2" x1="81.46601955249187%" y1="11.14270192715145%" x2="18.533980447508135%" y2="88.85729807284855%">
+      <stop offset="0%" stop-color="#FC913A" />
+      <stop offset="100%" stop-color="#FC913A" />
+    </linearGradient>
+    <linearGradient id="gradient-3" x1="43.90653282974262%" y1="0.37269241793389796%" x2="56.09346717025738%" y2="99.6273075820661%">
+      <stop offset="0%" stop-color="#E1F5C4" />
+      <stop offset="100%" stop-color="#F9D423" />
+    </linearGradient>
+    <linearGradient id="gradient-4" x1="8.066471602728797%" y1="22.768048249248647%" x2="91.9335283972712%" y2="77.23195175075135%">
+      <stop offset="0%" stop-color="#E1F5C4" />
+      <stop offset="100%" stop-color="#355C7D" />
+    </linearGradient>
+    <linearGradient id="gradient-5" x1="65.45084971874738%" y1="97.55282581475768%" x2="34.54915028125262%" y2="2.447174185242325%">
+      <stop offset="0%" stop-color="#FF6B9D" />
+      <stop offset="100%" stop-color="#C06C84" />
+    </linearGradient>
+    <linearGradient id="gradient-6" x1="81.46601955249187%" y1="11.14270192715145%" x2="18.533980447508135%" y2="88.85729807284855%">
+      <stop offset="0%" stop-color="#FC913A" />
+      <stop offset="100%" stop-color="#FC913A" />
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon points="0,-19.745098039215687 19.745098039215687,0 0,19.745098039215687 -19.745098039215687,0" fill="url(#gradient-0)" opacity="0.8652941176470588" transform="translate(170 100) rotate(0)"/>
+    <polygon points="0,-27.601078663123573 -23.784313725490197,13.594561132583253 23.784313725490197,13.594561132583253" fill="url(#gradient-1)" opacity="0.8692156862745097" transform="translate(143.64428613011137 154.72820377276207) rotate(0)"/>
+    <polygon points="22.019607843137255,0 11.00980392156863,19.069539773527932 -11.009803921568622,19.069539773527936 -22.019607843137255,2.6966242263577993e-15 -11.009803921568638,-19.06953977352793 11.00980392156863,-19.069539773527932" fill="url(#gradient-2)" opacity="0.7884313725490196" transform="translate(84.423534623058 168.24495385272763) rotate(270)"/>
+    <rect x="-23.549019607843135" y="-23.549019607843135" width="47.09803921568627" height="47.09803921568627" fill="url(#gradient-3)" opacity="0.7962745098039216" transform="translate(36.93217924683067 130.3718617382291) rotate(90)"/>
+    <polygon points="0,-22.36756828182232 -19.274509803921568,11.016861989554277 19.274509803921568,11.016861989554277" fill="url(#gradient-4)" opacity="0.8849019607843137" transform="translate(36.93217924683066 69.62813826177094) rotate(270)"/>
+    <polygon points="0,-25.052586651359487 -21.58823529411765,12.339333723803925 21.58823529411765,12.339333723803925" fill="url(#gradient-5)" opacity="0.7719607843137255" transform="translate(84.42353462305798 31.755046147272353) rotate(180)"/>
+    <circle cx="143.64428613011134" cy="45.27179622723791" r="18.6078431372549" fill="url(#gradient-6)" opacity="0.7954901960784314"/>
+  </g>
+</svg>

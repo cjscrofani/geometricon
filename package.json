@@ -1,0 +1,58 @@
+{
+  "name": "geometricon",
+  "version": "1.0.0",
+  "description": "Generate unique, symmetrical geometric icons from hash strings. Perfect for user avatars, visual identifiers, and decorative elements.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "geometricon": "./bin/geometricon.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "icon",
+    "hash",
+    "avatar",
+    "identicon",
+    "generative",
+    "geometric",
+    "geometricon",
+    "svg",
+    "hash-icon",
+    "user-avatar",
+    "visual-identifier",
+    "deterministic",
+    "icon-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/geometricon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/geometricon/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/geometricon#readme",
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "bin",
+    "src",
+    "examples",
+    "samples",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
